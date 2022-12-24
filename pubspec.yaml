@@ -1,0 +1,81 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^1.0.5"
+  get: ^4.6.5
+  path_drawing: "^1.0.0"
+  flutter: 
+    sdk: "flutter"
+  image_picker: ^0.8.6
+  path_provider: ^2.0.11
+  flutter_native_splash: ^2.2.15
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.12.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+    - "assets/icons/"
+  
+  fonts: 
+    - 
+      family: "Inter"
+      fonts: 
+        - 
+          asset: "fonts/Inter-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Inter-200.ttf"
+          style: "normal"
+          weight: 200
+        - 
+          asset: "fonts/Inter-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Inter-300.ttf"
+          style: "normal"
+          weight: 300
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Open Sans"
+      fonts: 
+        - 
+          asset: "fonts/OpenSans-600.ttf"
+          style: "normal"
+          weight: 600
+    - 
+      family: "Poppins"
+      fonts: 
+        - 
+          asset: "fonts/Poppins-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Poppins-200.ttf"
+          style: "normal"
+          weight: 200
+        - 
+          asset: "fonts/Poppins-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Poppins-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Poppins-300.ttf"
+          style: "normal"
+          weight: 300
+  uses-material-design: true
